@@ -1,0 +1,67 @@
+@import url('https://fonts.goo@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Fira Code', monospace;
+  background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  max-width: 500px;
+  padding: 2rem;
+  background: #111;
+  border-radius: 1rem;
+  box-shadow: 0 0 25px #ff007a88;
+  border: 1px solid #ff007a44;
+}
+
+h1 {
+  color: #ff007a;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.actions a {
+  display: block;
+  margin: 1rem 0;
+  padding: 0.75rem;
+  background: #ff007a;
+  color: white;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+}
+
+.actions a:hover {
+  background: #ff3399;
+  box-shadow: 0 0 10px #ff007a88;form input {
+  display: block;
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.75rem;
+  border: 1px solid #ff007a80;
+  background: #222;
+  color: #fff;
+  border-radius: 0.5rem;
+  font-family: inherit;
+}
+
+.stats {
+  margin-top: 2rem;
+}
+
+.card {
+  background: #222;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-left: 5px solid #ff007a;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+}
+}￼Enter
