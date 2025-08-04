@@ -1,5 +1,5 @@
-staticSites:
-  - name: thugkeed-panel
-    buildCommand: ""
-    staticPublishPath: .
-    plan: free￼Enter
+services:
+  - type: web
+    name: thugkeed-panel
+    env: static
+    staticPublishPath: ./
