@@ -1,0 +1,34 @@
+<!DOCTYP<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard | THUGKEED PANEL</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>👑 THUGKEED ADMIN DASHBOARD</h1>
+
+    <div class="stats">
+      <div class="card">🧠 AI Bots Active: <span id="bots">3</span></div>
+      <div class="card">📨 Messages: <span id="msgs">27</span></div>
+      <div class="card">💡 Commands Run: <span id="cmds">142</span></div>
+    </div>
+
+    <div class="actions">
+      <a href="#">➕ Add Bot</a>
+      <a href="#">🛠 Manage Tools</a>
+      <a href="index.html">↩️ Back Home</a>
+    </div>
+  </div>
+
+  <script>
+    // Fake stat increments
+    setInterval(() => {
+      document.getElementById("cmds").textContent =
+        parseInt(document.getElementById("cmds").textContent) + Math.floor(Math.random() * 5);
+    }, 2000);
+  </script>
+  </body>
+</html>￼Enter
